@@ -4,9 +4,11 @@ This project contains code to evaluate the results of the 2018 NIST
 Systematic Review challenge.
 
 
-## To install: clone this repository from github. Create a virtual environment and install required packages listed in requirements.txt.  The existing code was developed and tested on python 3.7.0.  
+## To install: 
+Clone this repository from github. Create a virtual environment and install required packages listed in requirements.txt.  The existing code was developed and tested on python 3.7.0.  
 
-## Test cases:  unit test cases are in ./tests under testfiles. To run, run ./tests/rununittests.sh.  These
+## Test cases:  
+Unit test cases are in ./tests under testfiles. To run, run ./tests/rununittests.sh.  These
 should complete successfully for all tests.
 
 
