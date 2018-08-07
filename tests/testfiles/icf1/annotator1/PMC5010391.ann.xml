@@ -1,0 +1,147 @@
+<Doc name="testfiles/icf1/annotator1/PMC5010391.ann">
+<Text>silly text
+</Text>
+<Mention id="T51" label="DoseFrequency" span="2042 2044" str="20" />
+<Mention id="T76" label="DoseUnits" span="2989 2995" str="dB SPL" />
+<Mention id="T52" label="TimeUnits" span="2045 2048" str="day" />
+<Mention id="T77" label="DoseDuration" span="3000 3001" str="4" />
+<Mention id="T53" label="GroupName" span="2094 2107" str="control group" />
+<Mention id="T78" label="DoseDurationUnits" span="3002 3004" str="hr" />
+<Mention id="T54" label="TimeUnits" span="2115 2119" str="days" />
+<Mention id="T79" label="DoseFrequency" span="3009 3012" str="day" />
+<Mention id="T55" label="GroupName" span="2147 2151" str="N10D" />
+<Mention id="T80" label="TestArticle" span="3077 3082" str="noise" />
+<Mention id="T56" label="GroupName" span="2156 2159" str="N1D" />
+<Mention id="T81" label="Endpoint" span="3105 3113" str="diabetes" />
+<Mention id="T46" label="TestArticle" span="1878 1883" str="noise" />
+<Mention id="T82" label="TestArticle" span="3340 3345" str="noise" />
+<Mention id="T31" label="TestArticle" span="1151 1156" str="noise" />
+<Mention id="T83" label="TestArticle" span="3436 3441" str="noise" />
+<Mention id="T57" label="TestArticle" span="2188 2193" str="noise" />
+<Mention id="T84" label="Endpoint" span="3990 4007" str="Auditory function" />
+<Mention id="T85" label="EndpointMethod" span="4024 4048" str="measuring ABR thresholds" />
+<Mention id="T58" label="TestArticle" span="2347 2352" str="noise" />
+<Mention id="T86" label="GroupName" span="4052 4056" str="1DPN" />
+<Mention id="T59" label="Endpoint" span="2365 2383" str="glucose metabolism" />
+<Mention id="T87" label="EndpointMethod" span="4322 4325" str="ABR" />
+<Mention id="T60" label="TimeEndpointAssessed" span="2514 2515" str="1" />
+<Mention id="T61" label="TimeUnits" span="2516 2519" str="day" />
+<Mention id="T88" label="EndpointMethod" span="4393 4428" str="TDT hardware and software (BioSig)." />
+<Mention id="T89" label="Endpoint" span="4721 4734" str="blood glucose" />
+<Mention id="T62" label="TimeEndpointAssessed" span="2521 2522" str="1" />
+<Mention id="T90" label="EndpointMethod" span="4762 4786" str="portable glucose monitor" />
+<Mention id="T63" label="TimeUnits" span="2523 2527" str="week" />
+<Mention id="T91" label="EndpointMethod" span="4848 4861" str="serum insulin" />
+<Mention id="T64" label="TimeEndpointAssessed" span="2533 2534" str="1" />
+<Mention id="T92" label="EndpointMethod" span="4889 4942" str="insulin enzyme-linked immunosorbent assay (ELISA) kit" />
+<Mention id="T65" label="TimeUnits" span="2535 2540" str="month" />
+<Mention id="T93" label="Endpoint" span="5093 5110" str="glucose tolerance" />
+<Mention id="T94" label="Endpoint" span="5119 5146" str="insulin response to glucose" />
+<Mention id="T95" label="EndpointMethod" span="5065 5070" str="IPGTT" />
+<Mention id="T68" label="GroupName" span="2579 2583" str="1WPN" />
+<Mention id="T96" label="GroupName" span="5829 5832" str="N1D" />
+<Mention id="T69" label="GroupName" span="2589 2593" str="1MPN" />
+<Mention id="T97" label="GroupName" span="5847 5854" str="control" />
+<Mention id="T70" label="Endpoint" span="2628 2648" str="β-cell proliferation" />
+<Mention id="T71" label="Species" span="2654 2658" str="mice" />
+<Mention id="T98" label="Endpoint" span="5858 5875" str="glucose tolerance" />
+<Mention id="T99" label="Endpoint" span="5880 5896" str="insulin response" />
+<Mention id="T72" label="GroupName" span="2822 2825" str="N1D" />
+<Mention id="T100" label="GroupName" span="5900 5904" str="1WPN" />
+<Mention id="T67" label="GroupName" span="2573 2577" str="1DPN" />
+<Mention id="T73" label="GroupName" span="2835 2839" str="1DPN" />
+<Mention id="T101" label="Endpoint" span="5910 5926" str="insulin response" />
+<Mention id="T102" label="EndpointMethod" span="5938 5943" str="IPGTT" />
+<Mention id="T74" label="TestArticle" span="2968 2973" str="noise" />
+<Mention id="T66" label="TestArticle" span="2557 2562" str="noise" />
+<Mention id="T103" label="GroupName" span="5951 5954" str="N1D" />
+<Mention id="T75" label="Dose" span="2986 2988" str="95" />
+<Mention id="T104" label="GroupName" span="5964 5968" str="1MPN" />
+<Mention id="T133" label="EndpointMethod" span="9810 9859" str="sections were double-stained for insulin and BrdU" />
+<Mention id="T24" label="GroupName" span="937 948" str="(N1D group)" />
+<Mention id="T105" label="Species" span="6012 6016" str="Mice" />
+<Mention id="T134" label="Endpoint" span="10042 10047;10068 10097" str="level glucose transporter 4 (GLUT4)" />
+<Mention id="T10" label="TimeEndpointAssessed" span="1108 1109" str="1" />
+<Mention id="T135" label="Endpoint" span="10052 10064;10068 10097" str="distribution glucose transporter 4 (GLUT4)" />
+<Mention id="T25" label="TimeUnits" span="1110 1113" str="day" />
+<Mention id="T106" label="Endpoint" span="6621 6629;6645 6652" str="pancreas weighed" />
+<Mention id="T136" label="Endpoint" span="10215 10237" str="relative GLUT4 content" />
+<Mention id="T2" label="Sex" span="201 205" str="male" />
+<Mention id="T107" label="Endpoint" span="6621 6629;6668 6688" str="pancreas immunohistochemistry" />
+<Mention id="T137" label="EndpointMethod" span="10283 10373" str="average intensity of GLUT4 immunofluorescence per cell after normalizing to the background" />
+<Mention id="T26" label="TimeEndpointAssessed" span="1115 1116" str="1" />
+<Mention id="T108" label="Species" span="6772 6776" str="mice" />
+<Mention id="T138" label="Endpoint" span="10661 10668" str="protein" />
+<Mention id="T27" label="TimeUnits" span="1117 1121" str="week" />
+<Mention id="T12" label="DoseUnits" span="786 823" str="decibel sound pressure level (dB SPL)" />
+<Mention id="T139" label="EndpointUnitOfMeasure" span="10669 10683" str="concentrations" />
+<Mention id="T28" label="TimeEndpointAssessed" span="1127 1128" str="1" />
+<Mention id="T109" label="EndpointMethod" span="6968 6991" str="immunoblotting analysis" />
+<Mention id="T8" label="GroupName" span="672 689" str="one control group" />
+<Mention id="T140" label="EndpointMethod" span="10752 10773" str="BCA protein assay kit" />
+<Mention id="T29" label="TimeUnits" span="1129 1134" str="month" />
+<Mention id="T110" label="Endpoint" span="7051 7071" str="immunohistochemistry" />
+<Mention id="T141" label="Endpoint" span="11809 11823" str="corticosterone" />
+<Mention id="T111" label="TimeEndpointAssessed" span="6782 6792" str="sacrificed" />
+<Mention id="T30" label="TestArticle" span="774 823" str="noise at 95 decibel sound pressure level (dB SPL)" />
+<Mention id="T142" label="EndpointMethod" span="11851 11875" str="corticosterone ELISA kit" />
+<Mention id="T112" label="TestArticle" span="7113 7118" str="noise" />
+<Mention id="T32" label="GroupName" span="1167 1171" str="1DPN" />
+<Mention id="T143" label="EndpointUnitOfMeasure" span="12012 12032" str="nanograms/milliliter" />
+<Mention id="T1" label="Species" span="46 50" str="mice" />
+<Mention id="T113" label="Endpoint" span="7122 7142" str="β-cell proliferation" />
+<Mention id="T13" label="DoseDuration" span="828 829" str="4" />
+<Mention id="T7" label="Species" span="391 395" str="mice" />
+<Mention id="T33" label="GroupName" span="1173 1177" str="1WPN" />
+<Mention id="T114" label="GroupName" span="7485 7488" str="N1D" />
+<Mention id="T34" label="GroupName" span="1183 1187" str="1MPN" />
+<Mention id="T115" label="GroupName" span="7562 7566" str="1DPN" />
+<Mention id="T3" label="Species" span="206 210" str="mice" />
+<Mention id="T35" label="Species" span="1208 1212" str="mice" />
+<Mention id="T116" label="GroupName" span="7614 7617" str="N1D" />
+<Mention id="T4" label="SampleSize" span="235 238" str="288" />
+<Mention id="T36" label="GroupName" span="1220 1233" str="control group" />
+<Mention id="T117" label="GroupName" span="7627 7631" str="1DPN" />
+<Mention id="T5" label="Species" span="239 243" str="mice" />
+<Mention id="T37" label="GroupName" span="1749 1762" str="control group" />
+<Mention id="T6" label="Species" span="294 298" str="mice" />
+<Mention id="T118" label="TestArticle" span="7655 7660" str="noise" />
+<Mention id="T38" label="GroupName" span="1767 1785" str="three noise groups" />
+<Mention id="T39" label="DoseFrequency" span="1826 1828" str="20" />
+<Mention id="T119" label="Endpoint" span="7664 7684" str="β-cell proliferation" />
+<Mention id="T9" label="GroupName" span="694 712" str="three noise groups" />
+<Mention id="T120" label="TestArticle" span="7738 7743" str="noise" />
+<Mention id="T11" label="Dose" span="783 785" str="95" />
+<Mention id="T40" label="TimeUnits" span="1840 1844" str="days" />
+<Mention id="T121" label="GroupName" span="7845 7849" str="1DPN" />
+<Mention id="T41" label="DoseFrequency" span="1846 1848" str="10" />
+<Mention id="T14" label="DoseUnits" span="830 832" str="hr" />
+<Mention id="T122" label="Endpoint" span="7881 7888;7898 7910" str="β cells proliferated" />
+<Mention id="T42" label="TimeUnits" span="1860 1864" str="days" />
+<Mention id="T15" label="DoseFrequency" span="837 840" str="day" />
+<Mention id="T123" label="TestArticle" span="7922 7927" str="noise" />
+<Mention id="T43" label="DoseFrequency" span="1869 1870" str="1" />
+<Mention id="T16" label="DoseDuration" span="884 886" str="20" />
+<Mention id="T124" label="TestArticle" span="7985 7990" str="noise" />
+<Mention id="T44" label="TimeUnits" span="1871 1874" str="day" />
+<Mention id="T17" label="DoseDurationUnits" span="887 891" str="days" />
+<Mention id="T125" label="Endpoint" span="9237 9248" str="β-cell mass" />
+<Mention id="T45" label="GroupName" span="1894 1898" str="N20D" />
+<Mention id="T126" label="EndpointUnitOfMeasure" span="9250 9273" str="milligrams per pancreas" />
+<Mention id="T18" label="GroupName" span="892 905" str="(N20D group)," />
+<Mention id="T47" label="GroupName" span="1900 1904" str="N10D" />
+<Mention id="T127" label="EndpointMethod" span="9293 9339;9411 9433" str="multiplying the relative insulin-positive area by the pancreas weight" />
+<Mention id="T19" label="DoseDuration" span="906 908" str="10" />
+<Mention id="T128" label="Endpoint" span="9458 9469" str="β-cell size" />
+<Mention id="T48" label="GroupName" span="1910 1913" str="N1D" />
+<Mention id="T20" label="DoseDurationUnits" span="909 913" str="days" />
+<Mention id="T129" label="EndpointMethod" span="9488 9551" str="dividing the total area of the β cells by the number of β cells" />
+<Mention id="T49" label="DoseFrequency" span="1970 1972" str="20" />
+<Mention id="T130" label="Endpoint" span="9619 9643;9651 9658" str="relative insulin content β cells" />
+<Mention id="T21" label="GroupName" span="914 927" str="(N10D group)," />
+<Mention id="T131" label="EndpointMethod" span="9681 9775" str="average intensity of insulin immunofluorescence per β cell after normalizing to the background" />
+<Mention id="T22" label="DoseDuration" span="931 932" str="1" />
+<Mention id="T50" label="TimeUnits" span="1973 1976" str="day" />
+<Mention id="T132" label="Endpoint" span="9781 9801" str="β-cell proliferation" />
+<Mention id="T23" label="DoseDurationUnits" span="933 936" str="day" />
+</Doc>

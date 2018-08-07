@@ -1,0 +1,23 @@
+#
+#test of overlap where there are multiple locations designated for an annotation:
+#
+#Overlaps of guess with gold
+#
+#guess, gold, overlap
+# m1    m1     26.6
+# m2    m1     43.4
+# m2    m2     33.2
+# m3    m3     62.6
+# m4    m4     50
+# m5    m4     28.6
+# m5    m5     3.8
+#
+# so, m1->m1, m2->2, m3->m3, m4->m4, m5->m5
+# 
+#
+T137	Mention1 2100 2110	asdkshdkgl akdlsiekdi
+T138	Mention1 2115 2120	asdkshdkgl akdlsiekdi
+T139	Mention1 2125 2135	asdkshdkgl akdlsiekdi
+T140	Mention1 5100 5110	asdkshdkgl akdlsiekdi
+T141	Mention1 5139 5155;5165 5175	asdkshdkgl akdlsiekdi
+

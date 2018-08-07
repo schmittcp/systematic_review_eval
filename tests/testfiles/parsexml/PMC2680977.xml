@@ -1,0 +1,95 @@
+<Doc name="PMC2680977">
+  <Text>&#65279;Materials and Methods
+Materials
+LF and PA were purified from B. anthracis as previously described [80]. LF used in this study, like that in all our prior work, is a recombinant variant having the N-terminal sequence HMAGG [4]. Toxin was prepared in sterile PBS for animal injections and in serum-free Dulbecco's modified Eagle medium (DMEM) (Invitrogen, Carslbad, CA) for cytotoxicity studies. LT doses and concentrations correspond to equivalent amounts of each toxin component (i.e., 100 &#181;g LT is 100 &#181;g PA plus 100 &#181;g LF). 7-nitroindazole, sodium salt (7-NI, Calbiochem, San Diego, CA), allopurinol (TCI America, Portland, OR), carboxy-PTIO (2-phenyl-4,4,5,5,-tetramethylimidazoline-1-oxyl-3-oxide, Cayman Chemical Company, Ann Arbor, MI) and sodium nitrite (Mallinckrodt Baker, Phillipsburg, NJ) were used at various doses as described in each experiment.
+
+Animal studies
+C57BL/6J, B6.129SF2/J, and B6.129S4-Nos1tm1Plh/J (nNOS&#8722;/&#8722;) mice (8&#8211;12 weeks old, female, 20&#8211;25 g) were purchased from Jackson Laboratories (Bar Harbor, Maine). Age-matched mice were used for all experiments. For survival studies, animals were injected intraperitoneally (IP) or intravenously (IV) with drugs or toxin according to described schedules and observed for malaise symptoms over time. For cytokine or cardiac biomarker measurements, mice were bled at various times after LT injection by cardiac puncture under anesthesia using microvette serum separator tubes (Sarstedt Inc., Newton, NC). Mouse tissues (spleen, liver, brain, kidney, heart, lung, femoral bone) were harvested for histopathological analyses at various times after LT administration (100 &#181;g IP) and fixed in 10% neutral buffered formalin, embedded in paraffin and stained with hematoxylin and eosin (H&amp;E). Selected heart sections were stained by Masson's trichrome or immunostained with anti-myeloperoxidase (DakoCytomation, Glostrup, Denmark and Abcam, Cambridge, MA), anti-nNOS (Zymed Laboratories, San Francisco, CA) and anti-cytochrome c oxidase I (Santa Cruz Biotech, Santa Cruz, CA). Terminal deoxynucleotidyl transferase (TdT)-mediated dUTP-digoxigenin nick end-labeling (TUNEL) was performed on some heart sections. Staining procedures were performed by Histoserv Inc. (Gaithersburg, MD). For electron microscopy, heart sections were fixed in 4% paraformaldehyde/2.5% glutaraldehyde (Electron Microscopy Sciences, Hatfield, PA) made in PBS containing 0.05 M sucrose. Tissues were washed twice in 0.1 M sodium phosphate buffer, pH 7.2, and post fixed in 1% osmium tetroxide in the same buffer. Following one phosphate buffer wash and two washes with deionized water, samples were stained with 1% uranyl acetate, dehydrated in ethanol, and embedded in Spurr's low viscosity resin (Ted Pella, Inc., Redding, CA). Sections were cut with a diamond knife and examined at 80 kV, with a model H7500 transmission electron microscope (Hitachi High Technologies, America, Pleasanton, CA). Digital images were collected with an XR-100 camera (Advanced Microscopy Techniques, Inc., Danvers, MA). For echocardiography studies, mice were kept under isoflurane anesthesia on a heating pad with body temperature monitoring (by anal probe) throughout the procedure. Baseline left ventricular short and long axis views were obtained with a 30 MHZ RMV 707B mechanical sector transducer (Visualsonics Inc., Toronto, Canada), with a minimum of 3 images recorded/animal. All measurements were performed in blinded fashion.
+
+Cytotoxicity assays
+Bone marrow-derived macrophages (BMDMs) from mice were cultured in differentiation medium consisting of two parts complete DMEM (10% fetal bovine serum, 10 mM Hepes, and 50 &#181;g/ml gentamicin) and one part L929 cell culture supernatant (also grown in complete DMEM) for 7 days prior to plating in 96-well plates for cytotoxicity testing.
+
+Cytokine and cardiac biomarker measurements
+ELISA kits for murine IL-1&#946;, MIP1 and IL-6 (R&amp;D systems, Minneapolis, MN) were utilized for assessment of cytokine levels. Murine cTroponin-I (cTnI), heart-type fatty acid binding protein (H-FABP), and myoglobin ELISA kits (Life Diagnostics, West Chester, PA) were used to measure these cardiac biomarkers in serum samples. All kits were used according to manufacturer's protocols.</Text>
+  <Mention id="T1" label="TestArticle" span="397 399" str="LT"/>
+  <Mention id="T2" label="Strain" span="882 890" str="C57BL/6J"/>
+  <Mention id="T3" label="Strain" span="892 903" str="B6.129SF2/J"/>
+  <Mention id="T4" label="Strain" span="909 940" str="B6.129S4-Nos1tm1Plh/J (nNOS&#8722;/&#8722;)"/>
+  <Mention id="T5" label="Species" span="941 945" str="mice"/>
+  <Mention id="T6" label="Sex" span="963 969" str="female"/>
+  <Mention id="T7" label="Species" span="1054 1058" str="mice"/>
+  <Mention id="T8" label="DoseRoute" span="1125 1156" str="injected intraperitoneally (IP)"/>
+  <Mention id="T9" label="DoseRoute" span="1125 1133;1160 1178" str="injected intravenously (IV)"/>
+  <Mention id="T10" label="Endpoint" span="1281 1289;1301 1323" str="cytokine biomarker measurements"/>
+  <Mention id="T11" label="Endpoint" span="1293 1323" str="cardiac biomarker measurements"/>
+  <Mention id="T12" label="Species" span="1325 1329" str="mice"/>
+  <Mention id="T13" label="TestArticle" span="1363 1365" str="LT"/>
+  <Mention id="T14" label="DoseRoute" span="1366 1375" str="injection"/>
+  <Mention id="T15" label="Endpoint" span="1487 1494;1539 1551;1572 1598" str="tissues femoral bone histopathological analyses"/>
+  <Mention id="T16" label="Endpoint" span="1487 1494;1533 1537;1572 1598" str="tissues lung histopathological analyses"/>
+  <Mention id="T17" label="Endpoint" span="1487 1494;1526 1531;1572 1598" str="tissues heart histopathological analyses"/>
+  <Mention id="T18" label="Endpoint" span="1487 1494;1518 1524;1572 1598" str="tissues kidney histopathological analyses"/>
+  <Mention id="T19" label="Endpoint" span="1487 1494;1511 1516;1572 1598" str="tissues brain histopathological analyses"/>
+  <Mention id="T20" label="Endpoint" span="1487 1494;1504 1509;1572 1598" str="tissues liver histopathological analyses"/>
+  <Mention id="T21" label="Endpoint" span="1487 1494;1496 1502;1572 1598" str="tissues spleen histopathological analyses"/>
+  <Mention id="T22" label="TestArticle" span="1622 1624" str="LT"/>
+  <Mention id="T23" label="Dose" span="1641 1644" str="100"/>
+  <Mention id="T24" label="DoseUnits" span="1645 1647" str="&#181;g"/>
+  <Mention id="T25" label="DoseRoute" span="1648 1650" str="IP"/>
+  <Mention id="T26" label="Species" span="3078 3082" str="mice"/>
+  <Mention id="T28" label="Species" span="3534 3538" str="mice"/>
+  <Mention id="T29" label="CellLine" span="3489 3528" str="Bone marrow-derived macrophages (BMDMs)"/>
+  <Mention id="T30" label="Endpoint" span="3828 3836;3849 3871" str="Cytokine biomarker measurements"/>
+  <Mention id="T31" label="Endpoint" span="3841 3871" str="cardiac biomarker measurements"/>
+  <Mention id="T32" label="Endpoint" span="3895 3900;3979 3994" str="IL-1&#946; cytokine levels"/>
+  <Mention id="T33" label="Endpoint" span="4075 4084;4182 4187" str="myoglobin serum"/>
+  <Mention id="T34" label="Endpoint" span="4023 4069;4182 4187" str="heart-type fatty acid binding protein (H-FABP) serum"/>
+  <Mention id="T35" label="Endpoint" span="3996 4021;4182 4187" str="Murine cTroponin-I (cTnI) serum"/>
+  <Mention id="T36" label="Endpoint" span="3902 3906;3979 3994" str="MIP1 cytokine levels"/>
+  <Mention id="T37" label="Endpoint" span="3911 3915;3979 3994" str="IL-6 cytokine levels"/>
+  <Mention id="T38" label="Vehicle" span="260 263" str="PBS"/>
+  <Mention id="T39" label="Vehicle" span="2401 2404" str="PBS"/>
+  <Mention id="T40" label="TestArticle" span="35 37" str="LF"/>
+  <Mention id="T41" label="TestArticle" span="42 44" str="PA"/>
+  <Mention id="T42" label="TestArticle" span="107 109" str="LF"/>
+  <Mention id="T43" label="DoseRoute" span="275 285" str="injections"/>
+  <Mention id="T45" label="TestArticle" span="496 498" str="LT"/>
+  <Mention id="T46" label="TestArticle" span="509 511" str="PA"/>
+  <Mention id="T47" label="TestArticle" span="524 526" str="LF"/>
+  <Mention id="T48" label="Endpoint" span="1249 1265" str="malaise symptoms"/>
+  <Mention id="T49" label="Species" span="1481 1486" str="Mouse"/>
+  <Mention id="T54" label="Endpoint" span="2258 2277;2279 2293" str="electron microscopy heart sections"/>
+  <Mention id="T58" label="Endpoint" span="3213 3244;3254 3264" str="Baseline left ventricular short axis views"/>
+  <Mention id="T59" label="Endpoint" span="3213 3238;3249 3264" str="Baseline left ventricular long axis views"/>
+  <Mention id="T44" label="Species" span="3888 3894" str="murine"/>
+  <Mention id="T60" label="Species" span="3996 4002" str="Murine"/>
+  <Mention id="T61" label="Dose" span="489 492" str="100"/>
+  <Mention id="T62" label="DoseUnits" span="493 495" str="&#181;g"/>
+  <Mention id="T63" label="Dose" span="502 505" str="100"/>
+  <Mention id="T64" label="DoseUnits" span="506 508" str="&#181;g"/>
+  <Mention id="T65" label="Dose" span="517 520" str="100"/>
+  <Mention id="T66" label="DoseUnits" span="521 523" str="&#181;g"/>
+  <Mention id="T50" label="Endpoint" span="3052 3068" str="echocardiography"/>
+  <Mention id="T27" label="Endpoint" span="3468 3480" str="Cytotoxicity"/>
+  <Mention id="T51" label="Endpoint" span="3803 3815" str="cytotoxicity"/>
+  <Mention id="T52" label="Endpoint" span="4160 4178;4182 4187" str="cardiac biomarkers serum"/>
+  <Group id="A1" type="Equiv" typeid="0" member="T5"/>
+  <Group id="A2" type="Equiv" typeid="0" member="T49"/>
+  <Group id="A11" type="Animal" typeid="0" member="T2"/>
+  <Group id="A12" type="Animal" typeid="0" member="T5"/>
+  <Group id="A13" type="Animal" typeid="0" member="T6"/>
+  <Group id="A14" type="Animal" typeid="1" member="T3"/>
+  <Group id="A15" type="Animal" typeid="1" member="T5"/>
+  <Group id="A16" type="Animal" typeid="1" member="T6"/>
+  <Group id="A17" type="Animal" typeid="2" member="T4"/>
+  <Group id="A18" type="Animal" typeid="2" member="T5"/>
+  <Group id="A19" type="Animal" typeid="2" member="T6"/>
+  <Group id="A20" type="Equiv" typeid="2" member="T8"/>
+  <Group id="A21" type="Equiv" typeid="2" member="T25"/>
+  <Group id="A24" type="Equiv" typeid="3" member="T14"/>
+  <Group id="A4" type="Equiv" typeid="3" member="T43"/>
+  <Group id="A5" type="TestArticleGroup" typeid="0" member="T38"/>
+  <Group id="A6" type="Equiv" typeid="0" member="T44"/>
+  <Group id="A3" type="TestArticleGroup" typeid="0" member="T1"/>
+</Doc>
+

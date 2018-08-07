@@ -1,0 +1,5 @@
+<Doc name="testfiles/dircompare/estimated_mismatch/20500000.gp.ann">
+<Text>silly text
+</Text>
+<Mention id="T14" label="Dose" span="1337 1338" str="5" />
+</Doc>

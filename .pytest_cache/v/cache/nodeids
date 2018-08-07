@@ -1,0 +1,14 @@
+[
+  "tests/test_sreval.py::test_parse_xml_files",
+  "tests/test_sreval.py::test_dir_missing_files",
+  "tests/test_sreval.py::test_dir_good",
+  "tests/test_sreval.py::test_basicmatch",
+  "tests/test_sreval.py::test_overlap1",
+  "tests/test_sreval.py::test_overlap2",
+  "tests/test_sreval.py::test_multi_alloc1",
+  "tests/test_sreval.py::test_multi_alloc2",
+  "tests/test_sreval.py::test_multi_alloc3",
+  "tests/test_sreval.py::test_multi_overlap1",
+  "tests/test_sreval.py::test_multi_overlap2",
+  "tests/test_sreval.py::test_multi_overlap3"
+]

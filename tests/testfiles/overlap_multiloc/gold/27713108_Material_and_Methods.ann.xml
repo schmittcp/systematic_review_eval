@@ -1,0 +1,9 @@
+<Doc name="testfiles/overlap_multiloc/gold/27713108_Material_and_Methods.ann">
+<Text>silly text
+</Text>
+<Mention id="T138" label="Mention2" span="3100 3110;3120 3130" str="asdkshdkgl akdlsiekdi" />
+<Mention id="T141" label="Mention5" span="6100 6110;6120 6130" str="asdkshdkgl akdlsiekdi" />
+<Mention id="T140" label="Mention4" span="5100 5110;5120 5130" str="asdkshdkgl akdlsiekdi" />
+<Mention id="T137" label="Mention1" span="2100 2110;2120 2130" str="asdkshdkgl akdlsiekdi" />
+<Mention id="T139" label="Mention3" span="4100 4110;4130 4140" str="asdkshdkgl akdlsiekdi" />
+</Doc>

@@ -1,0 +1,5 @@
+<Doc name="testfiles/dircompare/estimated/Dewitt2008_Methods.ann">
+<Text>silly text
+</Text>
+<Mention id="T14" label="Dose" span="1337 1338" str="5" />
+</Doc>

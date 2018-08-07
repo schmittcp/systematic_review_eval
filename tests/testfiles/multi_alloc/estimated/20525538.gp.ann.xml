@@ -1,0 +1,9 @@
+<Doc name="testfiles/multi_alloc/estimated/20525538.gp.ann">
+<Text>silly text
+</Text>
+<Mention id="T237" label="Mention1" span="2097 2102" str="asdkshdkgl akdlsiekdi" />
+<Mention id="T241" label="Mention1" span="5105 5115;5125 5140" str="asdkshdkgl akdlsiekdi" />
+<Mention id="T238" label="Mention1" span="2105 2118" str="asdkshdkgl akdlsiekdi" />
+<Mention id="T240" label="Mention1" span="5095 5105" str="asdkshdkgl akdlsiekdi" />
+<Mention id="T239" label="Mention1" span="2118 2140" str="asdkshdkgl akdlsiekdi" />
+</Doc>

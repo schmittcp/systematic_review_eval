@@ -1,0 +1,5 @@
+<Doc name="testfiles/dircompare/gold_mismatch/27713108_Material_and_Methods.ann">
+<Text>silly text
+</Text>
+<Mention id="T14" label="Dose" span="1337 1338" str="5" />
+</Doc>

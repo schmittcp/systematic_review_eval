@@ -1,0 +1,4 @@
+Results
+Gold directory ../icfround1/icf_annotator_1/
+Guess directory ../icfround1/icf_annotator_2
+Threshold 0.5

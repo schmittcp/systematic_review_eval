@@ -1,0 +1,18 @@
+<Doc name="testfiles/basicmatch/gold/20525538.gp.ann">
+<Text>silly text
+</Text>
+<Mention id="T23" label="Endpoint" span="2135 2148;2172 2178" str="organ weights kidney" />
+<Mention id="T15" label="Dose" span="1348 1351" str="50" />
+<Mention id="T19" label="GroupName" span="1528 1531" str="EE2" />
+<Mention id="T16" label="GroupName" span="1464 1479" str="Control animals" />
+<Mention id="T24" label="Endpoint" span="2601 2617;2631 2637" str="Cd concentration kidney" />
+<Mention id="T20" label="Endpoint" span="1741 1756" str="vaginal opening" />
+<Mention id="T17" label="GroupName" span="1914 1919" str="gland" />
+<Mention id="T25" label="Endpoint" span="2601 2617;2621 2626" str="Cd concentration liver" />
+<Mention id="T21" label="Endpoint" span="2135 2148;2153 2159" str="organ weights uterus" />
+<Mention id="T14" label="Dose" span="1337 1338" str="5" />
+<Mention id="T26" label="Endpoint" span="2184 2195" str="Cd analysis 1" />
+<Mention id="T18" label="GroupName" span="1247 1252" str="CdCl2" />
+<Mention id="T22" label="Endpoint" span="2135 2148;2161 2166" str="organ weights liver" />
+<Mention id="T27" label="Endpoint" span="2576 2587" str="Cd analysis 2" />
+</Doc>

@@ -1,0 +1,28 @@
+#
+# test of simple match tests:
+#  Dose = no match
+#  GroupName = half match
+#  Endpoint = full match
+#
+#
+T14	Dose 1337 1338	5
+T15	Dose 1348 1351	50 
+T16	GroupName 1464 1479	Control animals
+T17	GroupName 1914 1919	gland
+T18	GroupName 1247 1252	CdCl2
+T19	GroupName 1528 1531	EE2
+T20	Endpoint 1741 1756	vaginal opening
+T21	Endpoint 2135 2148;2153 2159	organ weights uterus
+T22	Endpoint 2135 2148;2161 2166	organ weights liver
+T23	Endpoint 2135 2148;2172 2178	organ weights kidney
+T24	Endpoint 2601 2617;2631 2637	Cd concentration kidney
+T25	Endpoint 2601 2617;2621 2626	Cd concentration liver
+T26	Endpoint 2184 2195	Cd analysis 1
+T27	Endpoint 2576 2587	Cd analysis 2
+
+
+
+
+
+
+

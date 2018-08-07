@@ -1,0 +1,12 @@
+<Doc name="testfiles/overlapmatch1/gold/20525538.gp.ann">
+<Text>silly text
+</Text>
+<Mention id="T137" label="TimeUnits" span="1490 1500" str="akdjfuxhej" />
+<Mention id="T138" label="EndpointMethod" span="2149 2160" str="asdfghjklq" />
+<Mention id="T136" label="Groupname" span="2070 2080" str="asjdhryghf" />
+<Mention id="T133" label="Species" span="1705 1710" str="asdfg" />
+<Mention id="T134" label="Sex" span="1820 1829" str="ashdgrydhg" />
+<Mention id="T140" label="NewGoldLabel" span="2353 2358" str="asdfg" />
+<Mention id="T141" label="groupsize" span="2153 2158" str="asdfg" />
+<Mention id="T135" label="Endpoint" span="1950 1960" str="asdfghjklq" />
+</Doc>

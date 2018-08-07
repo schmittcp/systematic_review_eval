@@ -1,0 +1,143 @@
+T1	Species 46 50	mice
+T2	Sex 201 205	male
+T3	Species 206 210	mice
+T4	SampleSize 235 238	288
+T5	Species 239 243	mice
+T6	Species 294 298	mice
+T7	Species 391 395	mice
+T8	GroupName 672 689	one control group
+T9	GroupName 694 712	three noise groups
+T11	Dose 783 785	95
+T12	DoseUnits 786 823	decibel sound pressure level (dB SPL)
+T14	DoseUnits 830 832	hr
+T15	DoseFrequency 837 840	day
+T16	DoseDuration 884 886	20
+T17	DoseDurationUnits 887 891	days
+T18	GroupName 892 905	(N20D group),
+T19	DoseDuration 906 908	10
+T20	DoseDurationUnits 909 913	days
+T21	GroupName 914 927	(N10D group),
+T22	DoseDuration 931 932	1
+T23	DoseDurationUnits 933 936	day
+T24	GroupName 937 948	(N1D group)
+T10	TimeEndpointAssessed 1108 1109	1
+T25	TimeUnits 1110 1113	day
+T26	TimeEndpointAssessed 1115 1116	1
+T27	TimeUnits 1117 1121	week
+T28	TimeEndpointAssessed 1127 1128	1
+T29	TimeUnits 1129 1134	month
+T30	TestArticle 774 823	noise at 95 decibel sound pressure level (dB SPL)
+T32	GroupName 1167 1171	1DPN
+T33	GroupName 1173 1177	1WPN
+T34	GroupName 1183 1187	1MPN
+T35	Species 1208 1212	mice
+T36	GroupName 1220 1233	control group
+T37	GroupName 1749 1762	control group
+T38	GroupName 1767 1785	three noise groups
+T39	DoseFrequency 1826 1828	20
+T40	TimeUnits 1840 1844	days
+T41	DoseFrequency 1846 1848	10
+T42	TimeUnits 1860 1864	days
+T43	DoseFrequency 1869 1870	1
+T44	TimeUnits 1871 1874	day
+T45	GroupName 1894 1898	N20D
+T47	GroupName 1900 1904	N10D
+T48	GroupName 1910 1913	N1D
+T49	DoseFrequency 1970 1972	20
+T50	TimeUnits 1973 1976	day
+T51	DoseFrequency 2042 2044	20
+T52	TimeUnits 2045 2048	day
+T53	GroupName 2094 2107	control group
+T54	TimeUnits 2115 2119	days
+T55	GroupName 2147 2151	N10D
+T56	GroupName 2156 2159	N1D
+T46	TestArticle 1878 1883	noise
+T31	TestArticle 1151 1156	noise
+T57	TestArticle 2188 2193	noise
+T58	TestArticle 2347 2352	noise
+T59	Endpoint 2365 2383	glucose metabolism
+T60	TimeEndpointAssessed 2514 2515	1
+T61	TimeUnits 2516 2519	day
+T62	TimeEndpointAssessed 2521 2522	1
+T63	TimeUnits 2523 2527	week
+T64	TimeEndpointAssessed 2533 2534	1
+T65	TimeUnits 2535 2540	month
+T66	TestArticle 2557 2562	noise
+T67	GroupName 2573 2577	1DPN
+T68	GroupName 2579 2583	1WPN
+T69	GroupName 2589 2593	1MPN
+T70	Endpoint 2628 2648	β-cell proliferation
+T71	Species 2654 2658	mice
+T72	GroupName 2822 2825	N1D
+T73	GroupName 2835 2839	1DPN
+T74	TestArticle 2968 2973	noise
+T75	Dose 2986 2988	95
+T76	DoseUnits 2989 2995	dB SPL
+T77	DoseDuration 3000 3001	4
+T78	DoseDurationUnits 3002 3004	hr
+T79	DoseFrequency 3009 3012	day
+T80	TestArticle 3077 3082	noise
+T81	Endpoint 3105 3113	diabetes
+T82	TestArticle 3340 3345	noise
+T83	TestArticle 3436 3441	noise
+T84	Endpoint 3990 4007	Auditory function
+T85	EndpointMethod 4024 4048	measuring ABR thresholds
+T86	GroupName 4052 4056	1DPN
+T87	EndpointMethod 4322 4325	ABR
+T88	EndpointMethod 4393 4428	TDT hardware and software (BioSig).
+T89	Endpoint 4721 4734	blood glucose
+T90	EndpointMethod 4762 4786	portable glucose monitor
+T91	EndpointMethod 4848 4861	serum insulin
+T92	EndpointMethod 4889 4942	insulin enzyme-linked immunosorbent assay (ELISA) kit
+T93	Endpoint 5093 5110	glucose tolerance
+T94	Endpoint 5119 5146	insulin response to glucose
+T95	EndpointMethod 5065 5070	IPGTT
+T96	GroupName 5829 5832	N1D
+T97	GroupName 5847 5854	control
+T98	Endpoint 5858 5875	glucose tolerance
+T99	Endpoint 5880 5896	insulin response
+T100	GroupName 5900 5904	1WPN
+T101	Endpoint 5910 5926	insulin response
+T102	EndpointMethod 5938 5943	IPGTT
+T103	GroupName 5951 5954	N1D
+T104	GroupName 5964 5968	1MPN
+T105	Species 6012 6016	Mice
+T106	Endpoint 6621 6629;6645 6652	pancreas weighed
+T107	Endpoint 6621 6629;6668 6688	pancreas immunohistochemistry
+T108	Species 6772 6776	mice
+T109	EndpointMethod 6968 6991	immunoblotting analysis
+T110	Endpoint 7051 7071	immunohistochemistry
+T111	TimeEndpointAssessed 6782 6792	sacrificed
+T112	TestArticle 7113 7118	noise
+T113	Endpoint 7122 7142	β-cell proliferation
+T114	GroupName 7485 7488	N1D
+T115	GroupName 7562 7566	1DPN
+T116	GroupName 7614 7617	N1D
+T117	GroupName 7627 7631	1DPN
+T118	TestArticle 7655 7660	noise
+T119	Endpoint 7664 7684	β-cell proliferation
+T120	TestArticle 7738 7743	noise
+T121	GroupName 7845 7849	1DPN
+T122	Endpoint 7881 7888;7898 7910	β cells proliferated
+T123	TestArticle 7922 7927	noise
+T124	TestArticle 7985 7990	noise
+T125	Endpoint 9237 9248	β-cell mass
+T126	EndpointUnitOfMeasure 9250 9273	milligrams per pancreas
+T127	EndpointMethod 9293 9339;9411 9433	multiplying the relative insulin-positive area by the pancreas weight
+T128	Endpoint 9458 9469	β-cell size
+T129	EndpointMethod 9488 9551	dividing the total area of the β cells by the number of β cells
+T130	Endpoint 9619 9643;9651 9658	relative insulin content β cells
+T131	EndpointMethod 9681 9775	average intensity of insulin immunofluorescence per β cell after normalizing to the background
+T132	Endpoint 9781 9801	β-cell proliferation
+T133	EndpointMethod 9810 9859	sections were double-stained for insulin and BrdU
+T134	Endpoint 10042 10047;10068 10097	level glucose transporter 4 (GLUT4)
+T135	Endpoint 10052 10064;10068 10097	distribution glucose transporter 4 (GLUT4)
+T136	Endpoint 10215 10237	relative GLUT4 content
+T137	EndpointMethod 10283 10373	average intensity of GLUT4 immunofluorescence per cell after normalizing to the background
+T138	Endpoint 10661 10668	protein
+T139	EndpointUnitOfMeasure 10669 10683	concentrations
+T140	EndpointMethod 10752 10773	BCA protein assay kit
+T141	Endpoint 11809 11823	corticosterone
+T142	EndpointMethod 11851 11875	corticosterone ELISA kit
+T143	EndpointUnitOfMeasure 12012 12032	nanograms/milliliter
+T13	DoseDuration 828 829	4

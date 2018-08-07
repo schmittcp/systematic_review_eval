@@ -1,0 +1,19 @@
+#
+# test of simple overlap, no multiple locations
+#   includes five tests using different labels for each
+#   species: no overlap left
+#   sex: partial overlap left, 33%
+#   endpoint: overlap within, 100%
+#   endpointmethod: overlap guess within gold, 50%
+#   groupname: partial overlap right, 20%
+#   timeunits; no overlap right
+#   groupsize: overlap gold within guest, 50%
+#
+T133	Species 1705 1710	asdfg
+T134	Sex 1820 1829	ashdgrydhg
+T135	Endpoint 1950 1960	asdfghjklq
+T136	Groupname 2070 2080	asjdhryghf
+T137	TimeUnits 1490 1500	akdjfuxhej
+T138	EndpointMethod 2149 2160	asdfghjklq
+T140	NewGoldLabel 2353 2358	asdfg
+T141	groupsize 2153 2158	asdfg

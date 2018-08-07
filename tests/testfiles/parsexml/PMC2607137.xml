@@ -1,0 +1,113 @@
+<Doc name="PMC2607137">
+  <Text>MATERIALS AND METHODS
+Animal Care and Husbandry
+Twenty mature (8&#8211;10 wk old) male C57BL/6 &#215; CBA F1 hybrid mice (Jackson Laboratory) were exposed to MTS (Yauk et al., 2007) using a smoke exposure system (Simani et al., 1974) adapted for mice (Hautamaki et al., 1997). Briefly, mice in individual exposure chambers were exposed to 2 cigarettes daily (1R3 reference cigarettes; Tobacco and Health Research Institute, University of Kentucky) at a rate of 0.08 L/min, 1 (20-ml) puff per 52 s, 5 days/wk for a total of 6 wk or 12 wk, including the 2-wk lead-up period (Yauk et al., 2007). Control mice were placed in restrainers only. Animals were anesthetized with isoflurane and euthanized by exsanguation. Animal procedures were carried out under the guidelines of the Canadian Council on Animal Care and procedures approved by the McMaster University Animal Research Ethics Board.
+Tissue Processing
+Whole hearts were excised from the mice, snap-frozen in liquid nitrogen and stored at &#8722;80&#176;C. At the time of experiment, frozen heart tissue was sliced randomly into two (upper and lower) halves. The upper half was used for RNA extraction. The lower half was further divided in two sections randomly for total protein extracts and microsome preparation.
+RNA Extraction and Purification
+Frozen heart tissue was sliced as described earlier. Total RNA was isolated from the upper portion of the heart tissue using TRIzol reagent (Invitrogen) and purified using RNeasy Mini Kit (Qiagen). All RNA samples showed A260/280 ratios between 2.0 and 2.1. RNA integrity was determined using an Agilent 2100 Bioanalyzer (Agilent Technologies) and only high-quality RNA (28S/18S &gt; 1.8) was used for further analysis.
+Microarray Hybridization
+Individual total (2.5 &#956;g) RNA samples of heart tissue from 40 mice (5 mice for each group, 4 treatment groups and 4 control groups) and universal reference total RNA (Stratagene) were used to synthesize double-stranded cDNA and cyanine-labeled cRNA (samples with Cyanine 5-CTP, and reference RNA with Cyanine 3-CTP, Perkin-Elmer Life Sciences) according to the manufacturer's instructions (Agilent linear amplification kits, Agilent Technologies). Cyanine-labeled cRNA targets were in vitro transcribed using T7 RNA polymerase and purified by RNeasy Mini Kit (Qiagen). Five micrograms of each labeled cRNA was hybridized to Agilent 4121A oligonucleotide microarrays (Agilent Technologies) at 60&#176;C overnight. Arrays were washed and scanned on a ScanArray Express (Perkin-Elmer Life Sciences), and data were acquired with ImaGene 5.5 (BioDiscovery).
+Statistical Analysis of Microarray Data
+A balanced blocked factorial design (Montgomery, 2001) using the date of hybridization and the date of exposure (Kerr, 2003) was used to analyze the heart data. The data were normalized using a lowess curve (Yang et al., 2002) using the SAS/STAT software, Version 8.2 of the SAS System for Windows (1999&#8211;2001, SAS Institute, Inc.). Ratio intensity plots and heat maps for the raw and normalized data were constructed using R (R Development Core Team, 2005).
+Differentially expressed genes between the control and treated groups within time points were determined using the MAANOVA library (Wu et al., 2003) in R. The main effects in the model included treatment, duration of exposure, and break period, as well as all two-way interactions and the three-way interaction. This model was applied to the log2 of the relative intensities. The Fs statistic (Cui et al., 2005), a shrinkage estimator for the gene-specific variance components, was used to test main effects, interactions, and pairwise comparisons. The p values for all the statistical tests were estimated using the permutation method using residual shuffling. These p values were then adjusted for multiple comparisons by using the false discovery rate (FDR) approach (Benjamini, 1995).
+The group means for the fold change calculation were based on the adjusted relative intensity for each gene where the estimated day of hybridization and date of exposure effects using parameter estimates from the analysis of variance (ANOVA) model were subtracted from the normalized ratio.
+Real-Time Reverse-Transcription Polymerase Chain Reaction (RT-PCR)
+Primers were designed using Beacon design 2.0 (Premier BioSoft International). About 2.5 &#956;g of total RNA per sample was reverse transcribed and quantitative polymerase chain reaction (PCR) was performed in duplicate with an iCycler IQ real-time detection system (Bio-Rad) as described in Dong et al. (2005). The values of the threshold cycle were averaged. Gene expression levels were normalized to the ubiquitin gene. PCR efficiency was examined using the standard curve for each gene. Primer specificity was assured by the melting curve for each gene. A t-test was used for statistical evaluation. Primer pairs used were: PAI-1 forward 5&#8242;CCCACACAGCCCATCAGG 3&#8242;, PAI-1 reverse 5&#8242; CCGAGGACACGCCATAGG 3&#8242;, Ubc forward 5&#8242;ACCTTCCTCACCACAGTATC 3&#8242;, Ubc reverse 5&#8242;CCATCACACCCAAGAACAAG 3&#8242;, Cyr61 forward 5&#8242;GTTCCGATGCGAAGATGG 3&#8242;, Cyr61 reverse 5&#8242;CTTGTGGATGTCATTGAATAGG 3&#8242; Cyp1A1 forward 5&#8242;ATTCCTGTCCTCCGTTACC 3&#8242;, Cyp1A1 reverse 5&#8242;AGGCTGTCTGTGATGTCC 3&#8242;.
+Preparation of Microsomes
+A section of the heart was taken from five individual mice (n = 5/treatment group). These heart sections were pooled into one sample. Approximately 1.0 g heart was homogenized in 2.5 ml ice-cold homogenization buffer containing 0.05 M Tris and 1.15% KCl, pH 7.4, using an ice-cold grinding vessel (size C, Thomas Scientific). The heart homogenates were centrifuged at 10,000 &#215; g (9000 rpm) for 20 min at 4&#176;C. Supernatant was then centrifuged 176,000 &#215; g (44,000 rpm) for 1 h (rotor Ty 70.1, Beckman Ultracentrifuge). The supernatant was decanted, and 0.25 M sucrose was added to the microsomal pellet. The pellet was dispersed by brief sonication and was quantified for total protein content using a Bradford protein assay kit (Bio-Rad).
+Preparation of Tissue Protein Extracts and Western Blotting
+A portion of the frozen heart was homogenized in lysis buffer (5 M HEPES, pH 7.5, 5 M NaCl, 10% glycerol, 1% Triton X-100, 2 M EGTA, 1 M MgCl2, 0.5 M NaF, 0.2 M sodium pyrophosphate, and protease inhibitor cocktail tablets [Roche Applied Science]), centrifuged, and the supernatant was quantified for protein content using a Bradford protein assay kit (Bio-Rad). Approximately 200 &#956;g of total protein was extracted from each individual mouse (n = 5/treatment group) from one treatment group, and subsequently pooled to make one sample. The protein content of each pooled sample was quantified again using a Bradford protein assay kit.
+For Western blotting, 30 &#956;g total protein (pooled) or 50 &#956;g microsomal extract was immunoblotted on 8&#8211;12% sodium dodecyl sulfate polyacrylamide gel electrophoresis (SDS-PAGE) gels and analyzed using antibodies against PAI-1, Cyp1A1 (Santa Cruz Biotechnologies), and tPA (American Diagnostica). Signals were detected by ECL Plus (GE Health Sciences).
+Total PAI-1 Antigen and Activity Assay
+Murine total PAI-1 antigen and activity assay kits (Innovation Research, Inc.) were used to analyze total and active PAI-1 protein present in heart tissue extracts. All incubations were carried out at room temperature for 30 min with agitation at 300 rpm. Fifty micrograms of pooled protein extracts for total and 100 &#956;g for active PAI-1 determination in triplicates along with known amounts of PAI-1 standards in duplicates were assayed on a 96-well plate coated with capture antibody or urokinase, respectively. Unbound PAI-1 was washed and the plate was reacted first with anti PAI-1 primary antibody followed by horseradish secondary antibody. Wells were then reacted with TMB substrate solution for 7 min and reactions were quenched with the addition of 1 N H2SO4. The absorbance was measured at 450 nm on a microtiter plate spectrophotometer.
+Tissue Plasminogen Activator (tPA) Activity Assay
+Mouse tissue plasminogen activator (tPA) activity assay kit (Innovation Research, Inc.) was used to quantify the active mouse tPA in the tissue extracts of heart. All the reactions were carried out at ambient temperature on a shaker at 300 rpm for 30 min. In brief, 96-well immulon strip plates coated with Avidin were reacted with biotinylated human PAI-1. A series of known concentrations of tPA activity standards in duplicates and 100 &#956;g pooled total protein extracts in triplicates were added to the wells. Wells were incubated with primary anti murine-tPA antibody, horseradish peroxidase conjugate secondary antibody, and finally with TMB substrate. The reaction was quenched by the addition of 1 N H2SO4. Final absorbance was read at 450 nm 5 min after the addition of H2SO4.
+</Text>
+  <Mention id="T1" label="Sex" span="78 82" str="male"/>
+  <Mention id="T2" label="SampleSize" span="50 56" str="Twenty"/>
+  <Mention id="T3" label="Strain" span="83 106" str="C57BL/6 &#215; CBA F1 hybrid"/>
+  <Mention id="T4" label="Species" span="107 111" str="mice"/>
+  <Mention id="T5" label="TestArticle" span="149 152" str="MTS"/>
+  <Mention id="T6" label="Species" span="237 241" str="mice"/>
+  <Mention id="T7" label="Species" span="277 281" str="mice"/>
+  <Mention id="T8" label="Dose" span="330 331" str="2"/>
+  <Mention id="T10" label="DoseFrequency" span="343 348" str="daily"/>
+  <Mention id="T11" label="Dose" span="452 456" str="0.08"/>
+  <Mention id="T12" label="DoseUnits" span="457 462" str="L/min"/>
+  <Mention id="T14" label="DoseFrequency" span="464 487" str="1 (20-ml) puff per 52 s"/>
+  <Mention id="T15" label="DoseFrequency" span="489 498" str="5 days/wk"/>
+  <Mention id="T16" label="Species" span="592 596" str="mice"/>
+  <Mention id="T17" label="Species" span="935 939" str="mice"/>
+  <Mention id="T19" label="Species" span="1801 1805" str="mice"/>
+  <Mention id="T20" label="Species" span="1793 1797" str="mice"/>
+  <Mention id="T21" label="SampleSize" span="1790 1792" str="40"/>
+  <Mention id="T22" label="GroupSize" span="1799 1800" str="5"/>
+  <Mention id="T23" label="GroupName" span="1824 1840" str="treatment groups"/>
+  <Mention id="T24" label="GroupName" span="1847 1861" str="control groups"/>
+  <Mention id="T25" label="Endpoint" span="1705 1729" str="Microarray Hybridization"/>
+  <Mention id="T26" label="GroupName" span="3123 3130;3143 3149" str="control groups"/>
+  <Mention id="T27" label="GroupName" span="3135 3142;3143 3149" str="treated groups"/>
+  <Mention id="T28" label="Endpoint" span="3080 3110" str="Differentially expressed genes"/>
+  <Mention id="T32" label="Endpoint" span="4325 4334;4587 4609" str="total RNA Gene expression levels"/>
+  <Mention id="T35" label="GroupSize" span="5239 5243" str="five"/>
+  <Mention id="T36" label="Species" span="5255 5259" str="mice"/>
+  <Mention id="T37" label="GroupSize" span="5261 5266" str="n = 5"/>
+  <Mention id="T38" label="Endpoint" span="1393 1405;1545 1558" str="heart tissue RNA integrity"/>
+  <Mention id="T42" label="Endpoint" span="6025 6030;6302 6317" str="heart protein content"/>
+  <Mention id="T43" label="Endpoint" span="6388 6401" str="total protein"/>
+  <Mention id="T44" label="Species" span="6437 6442" str="mouse"/>
+  <Mention id="T45" label="GroupSize" span="6444 6449" str="n = 5"/>
+  <Mention id="T46" label="GroupName" span="6476 6491" str="treatment group"/>
+  <Mention id="T47" label="Endpoint" span="6541 6556" str="protein content"/>
+  <Mention id="T48" label="Endpoint" span="6641 6657;6665 6687" str="Western blotting total protein (pooled)"/>
+  <Mention id="T54" label="Endpoint" span="7128 7133;7145 7158;7170 7191" str="total PAI-1 protein heart tissue extracts"/>
+  <Mention id="T55" label="Endpoint" span="7138 7158;7170 7191" str="active PAI-1 protein heart tissue extracts"/>
+  <Mention id="T57" label="Species" span="7929 7934" str="Mouse"/>
+  <Mention id="T58" label="Species" span="8049 8054" str="mouse"/>
+  <Mention id="T59" label="Endpoint" span="8042 8058;8066 8081;8085 8090" str="active mouse tPA tissue extracts heart"/>
+  <Mention id="T60" label="Endpoint" span="8323 8335" str="tPA activity"/>
+  <Mention id="T61" label="Endpoint" span="7935 7978" str="tissue plasminogen activator (tPA) activity"/>
+  <Mention id="T62" label="EndpointUnitOfMeasure" span="8648 8658" str="absorbance"/>
+  <Mention id="T64" label="TimeEndpointAssessed" span="8678 8711" str="5 min after the addition of H2SO4"/>
+  <Mention id="T9" label="Endpoint" span="7878 7921" str="Tissue Plasminogen Activator (tPA) Activity"/>
+  <Mention id="T65" label="Endpoint" span="6988 7007" str="Total PAI-1 Antigen"/>
+  <Mention id="T66" label="Endpoint" span="6988 6999;7012 7020" str="Total PAI-1 Activity"/>
+  <Mention id="T67" label="Endpoint" span="7035 7054" str="total PAI-1 antigen"/>
+  <Mention id="T68" label="Endpoint" span="7035 7046;7059 7067" str="total PAI-1 activity"/>
+  <Mention id="T13" label="DoseDuration" span="514 515" str="6"/>
+  <Mention id="T70" label="DoseDurationUnits" span="516 518" str="wk"/>
+  <Mention id="T71" label="DoseDuration" span="522 524" str="12"/>
+  <Mention id="T72" label="DoseDurationUnits" span="525 527" str="wk"/>
+  <Mention id="T73" label="GroupName" span="584 596" str="Control mice"/>
+  <Mention id="T77" label="Endpoint" span="1123 1126;906 912" str="RNA hearts"/>
+  <Mention id="T80" label="Endpoint" span="1757 1760;1772 1784" str="RNA heart tissue"/>
+  <Mention id="T31" label="Endpoint" span="5531 5548;5871 5892" str="heart homogenates total protein content"/>
+  <Mention id="T33" label="Endpoint" span="5983 5999" str="Western Blotting"/>
+  <Mention id="T81" label="GroupName" span="6450 6465" str="treatment group"/>
+  <Mention id="T82" label="GroupName" span="5267 5282" str="treatment group"/>
+  <Mention id="T83" label="Species" span="7028 7034" str="Murine"/>
+  <Mention id="T88" label="EndpointUnitOfMeasure" span="7802 7812" str="absorbance"/>
+  <Mention id="T89" label="Species" span="8274 8279" str="human"/>
+  <Mention id="T92" label="Species" span="8480 8486" str="murine"/>
+  <Mention id="T96" label="Endpoint" span="4162 4228" str="Real-Time Reverse-Transcription Polymerase Chain Reaction (RT-PCR)"/>
+  <Mention id="T98" label="Species" span="935 940" str="mice,"/>
+  <Mention id="T75" label="Endpoint" span="2770 2780" str="heart data"/>
+  <Mention id="T30" label="Endpoint" span="6641 6657;6697 6715" str="Western blotting microsomal extract"/>
+  <Mention id="T18" label="Endpoint" span="7311 7318;7332 7337;7360 7365" str="protein total PAI-1"/>
+  <Mention id="T29" label="Endpoint" span="7311 7318;7353 7365" str="protein active PAI-1"/>
+  <Mention id="T34" label="DoseRoute" span="296 313" str="exposure chambers"/>
+  <Mention id="T39" label="TimeUnits" span="8680 8683" str="min"/>
+  <Group id="A1" type="Animal" typeid="0" member="T1"/>
+  <Group id="A2" type="Animal" typeid="0" member="T3"/>
+  <Group id="A3" type="Animal" typeid="0" member="T4"/>
+  <Group id="A9" type="TestArticleGroup" typeid="0" member="T5"/>
+  <Group id="A4" type="Equiv" typeid="0" member="T6"/>
+  <Group id="A5" type="Equiv" typeid="0" member="T58"/>
+  <Group id="A6" type="Equiv" typeid="0" member="T83"/>
+  <Group id="A7" type="Equiv" typeid="1" member="T27"/>
+  <Group id="A8" type="Equiv" typeid="1" member="T82"/>
+  <Group id="A10" type="Equiv" typeid="2" member="T26"/>
+  <Group id="A11" type="Equiv" typeid="2" member="T73"/>
+</Doc>
+

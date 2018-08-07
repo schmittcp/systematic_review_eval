@@ -1,0 +1,12 @@
+<Doc name="testfiles/overlapmatch1/estimated/20525538.gp.ann">
+<Text>silly text
+</Text>
+<Mention id="T239" label="NewGuessLabel" span="2253 2258" str="asdfg" />
+<Mention id="T236" label="Groupname" span="2078 2084" str="asdfghjklmnbvcx" />
+<Mention id="T237" label="TimeUnits" span="1501 1505" str="dfrhe" />
+<Mention id="T235" label="Endpoint" span="1950 1960" str="asdfghjklq" />
+<Mention id="T241" label="groupsize" span="2149 2160" str="asdfghjklq" />
+<Mention id="T233" label="Species" span="1700 1703" str="asd" />
+<Mention id="T238" label="EndpointMethod" span="2153 2158" str="asdfg" />
+<Mention id="T234" label="Sex" span="1814 1824" str="ashdgrydhg" />
+</Doc>
