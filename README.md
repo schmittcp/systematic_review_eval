@@ -18,10 +18,15 @@ should complete successfully for all tests.
 			     --res_file RESFILE
                      	     --threshold THRESHOLD
 
-   where gold_dir is directory holding human annotations
-         guess_dir is directory holding machine annotations
-         res_file is file to output results to
-         threshold is the overlap (0.1 for low overlap to 1.0 for full overlap) for a hit to be called.
+   where: 
+   
+   gold_dir is directory holding human annotations
+   
+   guess_dir is directory holding machine annotations
+   
+   res_file is file to output results to
+   
+   threshold is the overlap (0.1 for low overlap to 1.0 for full overlap) for a hit to be called.
 
 ## Evaluation description:
 
