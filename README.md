@@ -32,8 +32,9 @@ should complete successfully for all tests.
 
 The code looks for all annotation files in the gold directory.  It then looks for 
 annotations files with the same names in the guess directory.  For each match, the
-code compares the two annotations assuming the gold annotation represents the 
-annotations. For each pair of files, the code compares mentions and groups independently.
+code compares the two annotation files assuming the gold annotation represents the 
+correct annotations.  The code outputs results for all annotation types and for
+each annotation type (e.g., results are provided for 'species', 'sex').
 
 ### Mention annotations:
 
@@ -43,7 +44,7 @@ the code takes each mention mi in Mgold and finds mentions mjs in Mguess that
 have an overlap greater than the user provided threshold and where the type of
 annotations match (e.g., Species annotation matches a species annotation).  
 
-This essentially creates  a bipartite graph in which a mi may be assigned 
+This  creates  a bipartite graph in which a mi may be assigned 
 to more than one mj (and vice versa).
 To create unique assignments, the python linear sum assignment from scipy.optmize
 algorithm is used.  
@@ -55,5 +56,5 @@ all annotations and by annotation type.
 
 ### Group annotations:
 
-TBD
+Under development
 
