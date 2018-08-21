@@ -1,0 +1,7 @@
+sThis directory contains 4 test cases.  Each test case has a test article group and an animal group each with 3 mention annotations.
+
+testmatch - test that the matching of mentions on get_mention_mappings works
+test0 - no match on either group
+test1 - one mention annotation matches on each group, matching mentions are identical
+test2 - two mention annotations match on each group, matching mentions are identical
+test3 - three mention annotations match on each group, matching mentions are identical

@@ -70,8 +70,8 @@ class GroupAnnotation:
          group type, the group number, and the mention being added to the group
 
          examples:
-         A21    GROUP__TestArticleGroup-4 T104
-         A15    GROUP_Animal-0 T1
+         A21    TestArticleGroup 4 T104
+         A15    Animal 0 T1
 
         gaid             holds group id (e.g., A21)
         galabel          holds group type TestArticleGroup
@@ -85,31 +85,26 @@ class GroupAnnotation:
         self.gamention = ingamention
 
     def __str__(self):
-        return str(self.gaid)+'\t'+str(self.galabel)+'\t'+str(self.gatypeid)+'\t'+str(self.gamention)
+        return str(self.gaid)+'\t'+str(self.gatype)+'\t'+str(self.gatypeid)+'\t'+str(self.gamention)
 
 
 class GroupModel:
     """ class to represent a grouping of mention annotations created from group annotations
     
-        groupid     TestArticleGroup-4
+        groupid     A1
         grouptype   TestArticleGroup
+        grouptypeid 3
         mentions    list of MentionAnnotations
     """
-    def __init__(self, groupid, grouptype):
+    def __init__(self, groupid, grouptype, grouptypeid):
         """ create gorup model with given id, id is of form GROUP_groupname """
         self.groupid = groupid
         self.grouptype = grouptype
+        self.grouptypeid = grouptypeid
         self.mentions = []
-        self.isok = False
-
-    def __gettype__(self,gid):
-        """ parse group type from group id """
-        gid = re.sub(r'GROUP[_]+', '', gid)
-        gid = re.sub(r'[-(0-9)+]', '', gid)
-        return gid
 
     def __str__(self):
-        s = self.groupid+", "+self.grouptype
+        s = self.groupid+", "+self.grouptype+", "+self.grouptypeid
         for m in self.mentions:
             s = '\n\t'.join([s,str(m)])
         return s
@@ -176,6 +171,13 @@ class BratDataModel:
                 return m
         return None
 
+    def groupmodels_by_types(self, mtype):
+        """ Return a set holding all groups
+        :param mtype: a string holding the group type to return
+        :returns set of group model annotations
+        """
+        return set([m for m in self.groupmodels if (m.grouptype == mtype)])
+
     def mentions_by_types(self, mtype):
         """ Return a set holding all mentions
         :param mtype: a string holding the mention type to return
@@ -196,6 +198,13 @@ class BratDataModel:
         :return: set of mention types
         """
         return set([m.matype for m in self.annotations if isinstance(m, MentionAnnotation)])
+
+    def groupmodeltypes(self):
+        """
+        Get a list of group model types
+        :return: set of group model types
+        """
+        return set([m.grouptype for m in self.groupmodels])
 
     def allgroupmodels(self):
         """ return a set of all group models """
@@ -234,13 +243,13 @@ class BratDataModel:
         # iterate through group annotations building up group models as we go
         gmodels={}
         for ga in self.allgroups():
-            groupid=ga.gatype+"-"+ga.gatypeid
+            tgroupid=ga.gatype+"-"+ga.gatypeid
 
-            if groupid in gmodels:
-                gm=gmodels[groupid]
+            if tgroupid in gmodels:
+                gm=gmodels[tgroupid]
             else:
-                gm=GroupModel(groupid, ga.gatype)
-                gmodels[groupid]=gm
+                gm=GroupModel(tgroupid, ga.gatype, ga.gatypeid)
+                gmodels[tgroupid]=gm
             gm.mentions.append(self.mention_by_id(ga.gamention))
         self.groupmodels=list(gmodels.values())
 

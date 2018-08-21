@@ -1,0 +1,15 @@
+<Doc name="testfiles/grpbasic4/test0/estimated/test0.xml">
+  <Text>silly
+</Text>
+  <Mention id="T1" label="GroupName" span="3024 3044" str="Sham control animals"/>
+  <Mention id="T2" label="GroupName" span="3279 3296" str="sham control mice"/>
+  <Mention id="T3" label="GroupName" span="3485 3497" str="sham animals"/>
+  <Mention id="T4" label="GroupName" span="13485 13497" str="sham animals"/>
+  <Mention id="T5" label="GroupName" span="23485 23497" str="sham animals"/>
+  <Mention id="T6" label="GroupName" span="33485 33497" str="sham animals"/>
+  <Group id="A118" type="Equiv" typeid="1" member="T1"/>
+  <Group id="A119" type="Equiv" typeid="1" member="T2"/>
+  <Group id="A18" type="Equiv" typeid="2" member="T3"/>
+  <Group id="A19" type="Equiv" typeid="2" member="T4"/>
+  <Group id="A20" type="Equiv" typeid="2" member="T5"/>
+</Doc>

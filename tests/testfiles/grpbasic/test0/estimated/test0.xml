@@ -1,0 +1,28 @@
+<Doc name="testfiles/grpbasic/estimated/test0.xml">
+<Text>silly text
+</Text>
+  <Mention id="T11" label="Sex" span="1195 1201" str="female"/>
+  <Mention id="T12" label="Strain" span="1202 1216" str="Sprague-Dawley"/>
+  <Mention id="T13" label="Species" span="1217 1221" str="rats"/>
+  <Mention id="T35" label="DoseRoute" span="712 735" str="injected subcutaneously"/>
+  <Mention id="T36" label="TestArticle" span="748 755" str="17&#946; -E2"/>
+  <Mention id="T37" label="Dose" span="757 759" str="60"/>
+  <Mention id="T38" label="DoseUnits" span="760 765" str="&#956;g/kg"/>
+  <Mention id="T39" label="GroupSize" span="767 769" str="12"/>
+  <Mention id="T140" label="Vehicle" span="1783 1793" str="sesame oil"/>
+  <Mention id="T50" label="TestArticle" span="943 946" str="BPA"/>
+  <Mention id="T151" label="TestArticlePurity" span="1948 1953" str="&gt; 99%"/>
+  <Mention id="T54" label="TestArticle" span="1098 1105" str="17&#945; -E2"/>
+  <Mention id="T56" label="DoseUnits" span="1110 1115" str="&#956;g/kg"/>
+  <Mention id="T157" label="TestArticle" span="2118 2121" str="BPA"/>
+  <Mention id="T58" label="Dose" span="1123 1126" str="300"/>
+  <Mention id="T132" label="TimeAtFirstDose" span="5745 5746;5747 5769" str="1 week after ovariectomy"/>
+  <Mention id="T134" label="DoseRoute" span="5775 5798" str="subcutaneous injections"/>
+  <Mention id="T138" label="Species" span="3100 3103" str="rat"/>
+  <Group id="A5" type="TestArticleGroup" typeid="4" member="T151"/>
+  <Group id="A6" type="TestArticleGroup" typeid="4" member="T140"/>
+  <Group id="A7" type="TestArticleGroup" typeid="4" member="T157"/>
+  <Group id="A12" type="Animal" typeid="0" member="T13"/>
+  <Group id="A13" type="Animal" typeid="0" member="T12"/>
+  <Group id="A14" type="Animal" typeid="0" member="T11"/>
+</Doc>

@@ -1,0 +1,7 @@
+test0 - tests a gold group of size 4 against estimated group of sizes 1,2,3,4,and 5
+test1 - tests a estimated group of size 4 against gold group of sizes 1,2,3,4,and 5
+test3 - tests two estimated groups against one gold group, with group assignment changing 
+test4 - tests two gold groups against one estimated group, with group assignment changing 
+test5 - tests two gold groups against two estimated groups, with group assignments changing
+test6 - tests two estimated groups against two gold groups, with group assignments changing
+test7 - tests two estimated groups against two gold groups, with group assignments changing based on partial mention overlap changing

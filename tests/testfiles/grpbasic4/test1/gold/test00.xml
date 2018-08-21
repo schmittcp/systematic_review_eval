@@ -1,0 +1,18 @@
+<Doc name="testfiles/grpbasic4/test1/gold/test0.xml">
+  <Text>silly
+</Text>
+  <Mention id="T11" label="GroupName" span="3024 3044" str="Sham control animals"/>
+  <Mention id="T21" label="GroupName" span="3279 3296" str="sham control mice"/>
+  <Mention id="T31" label="GroupName" span="3485 3497" str="sham animals"/>
+  <Mention id="T41" label="GroupName" span="13485 13497" str="sham animals"/>
+  <Mention id="T51" label="GroupName" span="23485 23497" str="sham animals"/>
+  <Mention id="T61" label="GroupName" span="33485 33497" str="sham animals"/>
+  <Group id="A1118" type="Equiv" typeid="1" member="T11"/>
+  <Group id="A1119" type="Equiv" typeid="1" member="T21"/>
+  <Group id="A118" type="Equiv" typeid="2" member="T11"/>
+  <Group id="A119" type="Equiv" typeid="2" member="T31"/>
+  <Group id="A120" type="Equiv" typeid="2" member="T41"/>
+  <Group id="A31" type="Equiv" typeid="3" member="T21"/>
+  <Group id="A32" type="Equiv" typeid="3" member="T31"/>
+</Doc>
+

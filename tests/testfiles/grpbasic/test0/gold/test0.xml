@@ -1,0 +1,36 @@
+<Doc name="testfiles/grpbasic/estimated/test0.xml">
+<Text>silly text
+</Text>
+  <Mention id="T1" label="Sex" span="195 201" str="female"/>
+  <Mention id="T2" label="Strain" span="202 216" str="Sprague-Dawley"/>
+  <Mention id="T3" label="Species" span="217 221" str="rats"/>
+  <Mention id="T35" label="DoseRoute" span="712 735" str="injected subcutaneously"/>
+  <Mention id="T36" label="TestArticle" span="748 755" str="17&#946; -E2"/>
+  <Mention id="T37" label="Dose" span="757 759" str="60"/>
+  <Mention id="T38" label="DoseUnits" span="760 765" str="&#956;g/kg"/>
+  <Mention id="T39" label="GroupSize" span="767 769" str="12"/>
+  <Mention id="T40" label="Vehicle" span="783 793" str="sesame oil"/>
+  <Mention id="T50" label="TestArticle" span="943 946" str="BPA"/>
+  <Mention id="T51" label="TestArticlePurity" span="948 953" str="&gt; 99%"/>
+  <Mention id="T54" label="TestArticle" span="1098 1105" str="17&#945; -E2"/>
+  <Mention id="T56" label="DoseUnits" span="1110 1115" str="&#956;g/kg"/>
+  <Mention id="T57" label="TestArticle" span="1118 1121" str="BPA"/>
+  <Mention id="T58" label="Dose" span="1123 1126" str="300"/>
+  <Mention id="T132" label="TimeAtFirstDose" span="5745 5746;5747 5769" str="1 week after ovariectomy"/>
+  <Mention id="T134" label="DoseRoute" span="5775 5798" str="subcutaneous injections"/>
+  <Mention id="T138" label="Species" span="3100 3103" str="rat"/>
+  <Group id="A1" type="TestArticleGroup" typeid="3" member="T54"/>
+  <Group id="A2" type="TestArticleGroup" typeid="3" member="T40"/>
+  <Group id="A3" type="TestArticleGroup" typeid="0" member="T36"/>
+  <Group id="A4" type="TestArticleGroup" typeid="0" member="T40"/>
+  <Group id="A5" type="TestArticleGroup" typeid="4" member="T51"/>
+  <Group id="A6" type="TestArticleGroup" typeid="4" member="T40"/>
+  <Group id="A7" type="TestArticleGroup" typeid="4" member="T57"/>
+  <Group id="A8" type="Equiv" typeid="0" member="T3"/>
+  <Group id="A9" type="Equiv" typeid="0" member="T138"/>
+  <Group id="A10" type="Equiv" typeid="1" member="T134"/>
+  <Group id="A11" type="Equiv" typeid="1" member="T35"/>
+  <Group id="A12" type="Animal" typeid="0" member="T3"/>
+  <Group id="A13" type="Animal" typeid="0" member="T2"/>
+  <Group id="A14" type="Animal" typeid="0" member="T1"/>
+</Doc>
