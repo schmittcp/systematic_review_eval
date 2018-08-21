@@ -4,9 +4,11 @@ This project contains code to evaluate the results of the 2018 NIST
 Systematic Review challenge.
 
 
-## To install: clone this repository from github. Create a virtual environment and install required packages listed in requirements.txt.  The existing code was developed and tested on python 3.7.0.  
+## To install: 
+Clone this repository from github. Create a virtual environment and install required packages listed in requirements.txt.  The existing code was developed and tested on python 3.7.0.  
 
-## Test cases:  unit test cases are in ./tests under testfiles. To run, run ./tests/rununittests.sh.  These
+## Test cases:  
+Unit test cases are in ./tests under testfiles. To run, run ./tests/rununittests.sh.  These
 should complete successfully for all tests.
 
 
@@ -16,17 +18,23 @@ should complete successfully for all tests.
 			     --res_file RESFILE
                      	     --threshold THRESHOLD
 
-   where gold_dir is directory holding human annotations
-         guess_dir is directory holding machine annotations
-         res_file is file to output results to
-         threshold is the overlap (0.1 for low overlap to 1.0 for full overlap) for a hit to be called.
+   where: 
+   
+   gold_dir is directory holding human annotations
+   
+   guess_dir is directory holding machine annotations
+   
+   res_file is file to output results to
+   
+   threshold is the overlap (0.1 for low overlap to 1.0 for full overlap) for a hit to be called.
 
 ## Evaluation description:
 
 The code looks for all annotation files in the gold directory.  It then looks for 
 annotations files with the same names in the guess directory.  For each match, the
-code compares the two annotations assuming the gold annotation represents the 
-annotations. For each pair of files, the code compares mentions and groups independently.
+code compares the two annotation files assuming the gold annotation represents the 
+correct annotations.  The code outputs results for all annotation types and for
+each annotation type (e.g., results are provided for 'species', 'sex').
 
 ### Mention annotations:
 
@@ -36,7 +44,7 @@ the code takes each mention mi in Mgold and finds mentions mjs in Mguess that
 have an overlap greater than the user provided threshold and where the type of
 annotations match (e.g., Species annotation matches a species annotation).  
 
-This essentially creates  a bipartite graph in which a mi may be assigned 
+This  creates  a bipartite graph in which a mi may be assigned 
 to more than one mj (and vice versa).
 To create unique assignments, the python linear sum assignment from scipy.optmize
 algorithm is used.  
@@ -48,5 +56,5 @@ all annotations and by annotation type.
 
 ### Group annotations:
 
-TBD
+Under development
 
